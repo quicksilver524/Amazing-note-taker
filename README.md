@@ -1,4 +1,4 @@
-# NAmazing Note Taker
+# Amazing Note Taker
 
 #### [Github repo source](https://github.com/quicksilver524/Amazing-note-taker)
 
