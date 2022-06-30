@@ -27,6 +27,7 @@ class Notes {
     return writeAsync("db/db.json", JSON.stringify(data));
   }
 
+  //Writes new notes
   writeNotes(note) {
     const newNote = {
       title: note.title,
@@ -38,6 +39,7 @@ class Notes {
       .then((updatedNotes) => this.write(updatedNotes));
   }
 
+  // deletes notes by id
   deleteNotes(id) {
     // needs to read all the notes, then I need to somehow remove the note that matches the id taht is being passed in, then I need to wite the notes again.
     return this.readAllNotes()
